@@ -1,0 +1,44 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>make checkbox art</title>
+    <meta name="description" content="i hate forms so why not make art with them lmao">
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        make checkbox art!
+      </h1>
+    </header>
+
+    <main>
+      <div id="grid"></div>
+
+      <h3>~*the json*~</h3>
+      <textarea id="json" placeholder="the JSON of position objects of this art will show up here lmao"></textarea>
+    </main>
+
+    <footer>
+      <a href="https://gomix.com">
+        Remix this in Gomix
+      </a>
+    </footer>
+
+    <script src="/makecheckboxart.js"></script>
+
+  </body>
+</html>
