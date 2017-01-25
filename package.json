@@ -1,0 +1,23 @@
+{
+  "name": "makecheckboxart",
+  "version": "0.0.1",
+  "description": "it's like make8bitart but with checkboxes lol",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/makecheckboxart"
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "express"
+  ]
+}
