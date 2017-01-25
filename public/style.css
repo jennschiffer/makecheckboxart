@@ -1,3 +1,7 @@
+body { font-family: monospace; margin: 2em; }
 #grid input { margin: 0; }
 #grid div { line-height: 0; }
-#json { font-family: monospace; }
+#json { font-family: monospace; width: 100%; height: 200px; }
+header, 
+main, 
+footer { margin: 1em auto; max-width: 600px; }
